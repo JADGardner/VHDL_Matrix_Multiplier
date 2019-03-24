@@ -6,9 +6,7 @@ Create Date:    21/11/2018
 
 Design Name:    Parameterizable Matrix-Multiplier
 
-Module Name:    Matrix-Multiplier
-
-Project Name:   Final Project 
+Project Name:   Matrix-Multiplier
 
 Tool versions:  Any (tested on ISE 2017.4)
 
