@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Final_Project.srcs/sources_1/new/Async_ROM_12x5.vhd" \
+"../../../../Final_Project.srcs/sources_1/new/Async_ROM_15x5.vhd" \
+"../../../../Final_Project.srcs/sources_1/imports/VivadoProjects/DigEng.vhd" \
+"../../../../Final_Project.srcs/sources_1/imports/VivadoProjects/Param_Counter.vhd" \
+"../../../../Final_Project.srcs/sources_1/new/Control.vhd" \
+"../../../../Final_Project.srcs/sources_1/new/Param_RAM.vhd" \
+"../../../../Final_Project.srcs/sources_1/new/Datapath.vhd" \
+"../../../../Final_Project.srcs/sources_1/imports/Lab3b-VHDL/Debouncer.vhd" \
+"../../../../Final_Project.srcs/sources_1/new/Matrix_Multiplier.vhd" \
+"../../../../Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd" \
+
+# Do not sort compile order
+nosort

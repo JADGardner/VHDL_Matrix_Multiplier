@@ -1,0 +1,364 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Nov 22 13:57:51 2018
+# Process ID: 7712
+# Current directory: M:/VivadoProjects/Final_Project/Final_Project.runs/synth_1
+# Command line: vivado.exe -log Matrix_Multiplier.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Matrix_Multiplier.tcl
+# Log file: M:/VivadoProjects/Final_Project/Final_Project.runs/synth_1/Matrix_Multiplier.vds
+# Journal file: M:/VivadoProjects/Final_Project/Final_Project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Matrix_Multiplier.tcl -notrace
+Command: synth_design -top Matrix_Multiplier -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3616 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 391.867 ; gain = 101.133
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Matrix_Multiplier' [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Matrix_Multiplier.vhd:40]
+	Parameter data_size bound to: 5 - type: integer 
+	Parameter Matrix_A_Height bound to: 4 - type: integer 
+	Parameter Matrix_B_Width bound to: 5 - type: integer 
+	Parameter Matrix_Common bound to: 3 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Debouncer' [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/imports/Lab3b-VHDL/Debouncer.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'Debouncer' (1#1) [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/imports/Lab3b-VHDL/Debouncer.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'Control' [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Control.vhd:28]
+	Parameter data_size bound to: 5 - type: integer 
+	Parameter Matrix_A_Height bound to: 4 - type: integer 
+	Parameter Matrix_B_Width bound to: 5 - type: integer 
+	Parameter Matrix_Common bound to: 3 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Param_Counter' [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/imports/VivadoProjects/Param_Counter.vhd:39]
+	Parameter LIMIT bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Param_Counter' (2#1) [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/imports/VivadoProjects/Param_Counter.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'Param_Counter__parameterized0' [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/imports/VivadoProjects/Param_Counter.vhd:39]
+	Parameter LIMIT bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Param_Counter__parameterized0' (2#1) [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/imports/VivadoProjects/Param_Counter.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'Param_Counter__parameterized1' [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/imports/VivadoProjects/Param_Counter.vhd:39]
+	Parameter LIMIT bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Param_Counter__parameterized1' (2#1) [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/imports/VivadoProjects/Param_Counter.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Control' (3#1) [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Control.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'Datapath' [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Datapath.vhd:29]
+	Parameter data_size bound to: 5 - type: integer 
+	Parameter Matrix_A_Height bound to: 4 - type: integer 
+	Parameter Matrix_B_Width bound to: 5 - type: integer 
+	Parameter Matrix_Common bound to: 3 - type: integer 
+	Parameter output_size bound to: 11 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Async_ROM_12x5' [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Async_ROM_12x5.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Async_ROM_12x5' (4#1) [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Async_ROM_12x5.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'Async_ROM_15x5' [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Async_ROM_15x5.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Async_ROM_15x5' (5#1) [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Async_ROM_15x5.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'Param_RAM' [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Param_RAM.vhd:16]
+	Parameter Width bound to: 11 - type: integer 
+	Parameter Depth bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Param_RAM' (6#1) [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Param_RAM.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Datapath' (7#1) [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Datapath.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Matrix_Multiplier' (8#1) [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Matrix_Multiplier.vhd:40]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 444.234 ; gain = 153.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 444.234 ; gain = 153.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 444.234 ; gain = 153.500
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-5544] ROM "MACC_EN" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Write_EN" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 444.234 ; gain = 153.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	  15 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module Param_Counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module Param_Counter__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module Param_Counter__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module Control 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module Async_ROM_15x5 
+Detailed RTL Component Info : 
++---Muxes : 
+	  15 Input      5 Bit        Muxes := 1     
+Module Datapath 
+Detailed RTL Component Info : 
++---Registers : 
+	               11 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element Datapath/MACC_Data_out_reg was removed.  [M:/VivadoProjects/Final_Project/Final_Project.srcs/sources_1/new/Datapath.vhd:48]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 614.918 ; gain = 324.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------------+---------------------------+-----------+----------------------+-----------------+
+|Module Name       | RTL Object                | Inference | Size (Depth x Width) | Primitives      | 
++------------------+---------------------------+-----------+----------------------+-----------------+
+|Matrix_Multiplier | Datapath/RAM/ram_inst_reg | Implied   | 32 x 11              | RAM16X1S x 22   | 
++------------------+---------------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 614.918 ; gain = 324.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------------+---------------------------+-----------+----------------------+-----------------+
+|Module Name       | RTL Object                | Inference | Size (Depth x Width) | Primitives      | 
++------------------+---------------------------+-----------+----------------------+-----------------+
+|Matrix_Multiplier | Datapath/RAM/ram_inst_reg | Implied   | 32 x 11              | RAM16X1S x 22   | 
++------------------+---------------------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 615.734 ; gain = 325.000
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 615.734 ; gain = 325.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 615.734 ; gain = 325.000
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 615.734 ; gain = 325.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 615.734 ; gain = 325.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 615.734 ; gain = 325.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 615.734 ; gain = 325.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |     7|
+|3     |LUT1     |     1|
+|4     |LUT2     |    14|
+|5     |LUT3     |    16|
+|6     |LUT4     |     8|
+|7     |LUT5     |    32|
+|8     |LUT6     |    20|
+|9     |RAM16X1S |    22|
+|10    |FDRE     |    26|
+|11    |IBUF     |     3|
+|12    |OBUF     |    11|
++------+---------+------+
+
+Report Instance Areas: 
++------+-----------------+------------------------------+------+
+|      |Instance         |Module                        |Cells |
++------+-----------------+------------------------------+------+
+|1     |top              |                              |   161|
+|2     |  Control        |Control                       |    74|
+|3     |    H_Counter    |Param_Counter__parameterized1 |    28|
+|4     |    M_Counter    |Param_Counter                 |    11|
+|5     |    N_Counter    |Param_Counter__parameterized0 |    31|
+|6     |  Datapath       |Datapath                      |    63|
+|7     |    RAM          |Param_RAM                     |    33|
+|8     |  Next_Debouncer |Debouncer                     |     5|
+|9     |  Rst_Debouncer  |Debouncer_0                   |     4|
++------+-----------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 615.734 ; gain = 325.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 615.734 ; gain = 325.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 615.734 ; gain = 325.000
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 32 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 22 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 22 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 717.172 ; gain = 439.188
+INFO: [Common 17-1381] The checkpoint 'M:/VivadoProjects/Final_Project/Final_Project.runs/synth_1/Matrix_Multiplier.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Matrix_Multiplier_utilization_synth.rpt -pb Matrix_Multiplier_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 717.172 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 22 13:58:20 2018...

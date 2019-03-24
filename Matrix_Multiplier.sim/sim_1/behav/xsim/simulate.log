@@ -1,0 +1,76 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Note: Test, no errors for column: {0} and row: {0} Output = {768}
+Time: 240 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {1} and row: {0} Output = {-720}
+Time: 320 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {2} and row: {0} Output = {0}
+Time: 400 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {3} and row: {0} Output = {-432}
+Time: 480 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {4} and row: {0} Output = {-480}
+Time: 560 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {0} and row: {1} Output = {-240}
+Time: 640 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {1} and row: {1} Output = {225}
+Time: 720 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {2} and row: {1} Output = {0}
+Time: 800 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {3} and row: {1} Output = {145}
+Time: 880 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {4} and row: {1} Output = {160}
+Time: 960 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {0} and row: {0} Output = {768}
+Time: 240 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {1} and row: {0} Output = {-720}
+Time: 320 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {2} and row: {0} Output = {0}
+Time: 400 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {3} and row: {0} Output = {-432}
+Time: 480 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {4} and row: {0} Output = {-480}
+Time: 560 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {0} and row: {1} Output = {-240}
+Time: 640 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {1} and row: {1} Output = {225}
+Time: 720 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {2} and row: {1} Output = {0}
+Time: 800 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {3} and row: {1} Output = {145}
+Time: 880 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {4} and row: {1} Output = {160}
+Time: 960 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {0} and row: {2} Output = {-384}
+Time: 1040 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {1} and row: {2} Output = {360}
+Time: 1120 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {2} and row: {2} Output = {0}
+Time: 1200 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {3} and row: {2} Output = {226}
+Time: 1280 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {4} and row: {2} Output = {250}
+Time: 1360 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {0} and row: {3} Output = {-528}
+Time: 1440 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {1} and row: {3} Output = {495}
+Time: 1520 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {2} and row: {3} Output = {0}
+Time: 1600 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {3} and row: {3} Output = {307}
+Time: 1680 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Error: Test failed for column: {4} and row: {3} Expected output = {342} Actual output = {340}
+Time: 1760 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {0} and row: {0} Output = {768}
+Time: 1860 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {1} and row: {0} Output = {-720}
+Time: 1940 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {2} and row: {0} Output = {0}
+Time: 2020 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {3} and row: {0} Output = {-432}
+Time: 2100 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {4} and row: {0} Output = {-480}
+Time: 2180 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {0} and row: {1} Output = {-240}
+Time: 2260 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/test  File: M:/VivadoProjects/Final_Project/Final_Project.srcs/sim_1/new/Matrix_Multiplier_tb.vhd
+Note: Test, no errors for column: {1} and row: {1} Output = {225}
+Time: 
