@@ -1,3 +1,5 @@
+#VHDL Matrix Multiplier
+
 Company: University of York
 
 Engineers: James Gardner
