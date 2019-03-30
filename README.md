@@ -1,4 +1,4 @@
-#VHDL Matrix Multiplier
+# VHDL Matrix Multiplier
 
 Company: University of York
 
